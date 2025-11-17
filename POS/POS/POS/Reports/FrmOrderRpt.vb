@@ -131,9 +131,12 @@ Public Class FrmOrderRpt
                     End If
                     rptLoad.Rows(i)("PCode") = ReportTable.Rows(i)("PCode")
                     rptLoad.Rows(i)("Code") = ReportTable.Rows(i)("Code")
-                    rptLoad.Rows(i)("OrderDate") = ReportTable.Rows(i)("OrderDate")
-                    rptLoad.Rows(i)("OrderTime") = ReportTable.Rows(i)("OrderTime")
+                    rptLoad.Rows(i)("Date") = ReportTable.Rows(i)("Date")
+                    rptLoad.Rows(i)("Time") = ReportTable.Rows(i)("Time")
                     rptLoad.Rows(i)("MetaData") = ReportTable.Rows(i)("MetaData")
+                    rptLoad.Rows(i)("ShadowPrice") = ReportTable.Rows(i)("ShadowPrice")
+                    rptLoad.Rows(i)("RewardPointUsed") = ReportTable.Rows(i)("RewardPointUsed")
+                    rptLoad.Rows(i)("CouponCode") = ReportTable.Rows(i)("CouponCode")
                     'rptLoad.Rows(i)("Selection") = False
                     Dim address As String = ReportTable.Rows(i)("BillingAddress")
                     Dim add1 As String = RptObj.readJSON(address)
@@ -276,7 +279,6 @@ Public Class FrmOrderRpt
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-
     End Sub
     Function readFromUpdatePriceExcel(ByVal path As String) As Boolean
         Dim connstring As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + ";Extended Properties=""Excel 8.0;HDR=YES;"""
@@ -813,7 +815,7 @@ Public Class FrmOrderRpt
                     tblDtDel.Rows(i)("SNo") = sNo
                 End If
                 tblDtDel.Rows(i)("Code") = dtb1.Rows(i)("Code")
-                tblDtDel.Rows(i)("OrderTime") = dtb1.Rows(i)("OrderTime")
+                tblDtDel.Rows(i)("Time") = dtb1.Rows(i)("Time")
                 'rptLoad.Rows(i)("Selection") = False
                 Dim address As String = dtb1.Rows(i)("BillingAddress")
                 Dim add1 As String = RptObj.readJSON(address)

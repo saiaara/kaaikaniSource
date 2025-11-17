@@ -82,7 +82,6 @@ C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\bin\Debug\FubarCoder.Re
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\bin\Debug\FubarCoder.RestSharp.Portable.HttpClient.xml
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\bin\Debug\RestSharp.xml
-C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\obj\Debug\DataClass.csprojResolveAssemblyReference.cache
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\obj\Debug\DataClass.Properties.Resources.resources
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\obj\Debug\DataClass.csproj.GenerateResource.Cache
 C:\Users\ACER\Desktop\dummy\KaaikaniSource\POS\DataClass\obj\Debug\DataClass.dll

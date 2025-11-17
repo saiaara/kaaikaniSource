@@ -6512,6 +6512,8 @@ Partial Public Class Rpt_DataSet
 
         Private columnCouponCode As Global.System.Data.DataColumn
 
+        Private columnShadowPrice As Global.System.Data.DataColumn
+
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
         Public Sub New()
@@ -6756,6 +6758,14 @@ Partial Public Class Rpt_DataSet
         End Property
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public ReadOnly Property ShadowPriceColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnShadowPrice
+            End Get
+        End Property
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
          Global.System.ComponentModel.Browsable(False)> _
         Public ReadOnly Property Count() As Integer
@@ -6817,10 +6827,11 @@ Partial Public Class Rpt_DataSet
                     ByVal OrdNo As Integer, _
                     ByVal SlNo As String, _
                     ByVal GroupName As String, _
-                    ByVal RewardPointUsed As String, _
-                    ByVal CouponCode As String) As Qry_OrderRptRow
+                    ByVal RewardPointUsed As Integer, _
+                    ByVal CouponCode As String, _
+                    ByVal ShadowPrice As Decimal) As Qry_OrderRptRow
             Dim rowQry_OrderRptRow As Qry_OrderRptRow = CType(Me.NewRow, Qry_OrderRptRow)
-            Dim columnValuesArray() As Object = New Object() {Id, _Date, Code, Time, Customer, Address, NetTotal, CellNo, Pincode, Qty, ItemName, GSTNo, DeliveryTime, CuttingInstructions, SNo, TamilName, Rate, Total, Shipping, SubTotal, Category, OrdNo, SlNo, GroupName, RewardPointUsed, CouponCode}
+            Dim columnValuesArray() As Object = New Object() {Id, _Date, Code, Time, Customer, Address, NetTotal, CellNo, Pincode, Qty, ItemName, GSTNo, DeliveryTime, CuttingInstructions, SNo, TamilName, Rate, Total, Shipping, SubTotal, Category, OrdNo, SlNo, GroupName, RewardPointUsed, CouponCode, ShadowPrice}
             rowQry_OrderRptRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowQry_OrderRptRow)
             Return rowQry_OrderRptRow
@@ -6869,6 +6880,7 @@ Partial Public Class Rpt_DataSet
             Me.columnGroupName = MyBase.Columns("GroupName")
             Me.columnRewardPointUsed = MyBase.Columns("RewardPointUsed")
             Me.columnCouponCode = MyBase.Columns("CouponCode")
+            Me.columnShadowPrice = MyBase.Columns("ShadowPrice")
         End Sub
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
@@ -6925,10 +6937,12 @@ Partial Public Class Rpt_DataSet
             MyBase.Columns.Add(Me.columnSlNo)
             Me.columnGroupName = New Global.System.Data.DataColumn("GroupName", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnGroupName)
-            Me.columnRewardPointUsed = New Global.System.Data.DataColumn("RewardPointUsed", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnRewardPointUsed = New Global.System.Data.DataColumn("RewardPointUsed", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnRewardPointUsed)
             Me.columnCouponCode = New Global.System.Data.DataColumn("CouponCode", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnCouponCode)
+            Me.columnShadowPrice = New Global.System.Data.DataColumn("ShadowPrice", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnShadowPrice)
             Me.columnId.AllowDBNull = False
             Me.columnDate.AllowDBNull = False
             Me.columnTime.AllowDBNull = False
@@ -12379,15 +12393,15 @@ Partial Public Class Rpt_DataSet
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
-        Public Property RewardPointUsed() As String
+        Public Property RewardPointUsed() As Integer
             Get
                 Try
-                    Return CType(Me(Me.tableQry_OrderRpt.RewardPointUsedColumn), String)
+                    Return CType(Me(Me.tableQry_OrderRpt.RewardPointUsedColumn), Integer)
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'RewardPointUsed' in table 'Qry_OrderRpt' is DBNull.", e)
                 End Try
             End Get
-            Set(value As String)
+            Set(value As Integer)
                 Me(Me.tableQry_OrderRpt.RewardPointUsedColumn) = value
             End Set
         End Property
@@ -12404,6 +12418,21 @@ Partial Public Class Rpt_DataSet
             End Get
             Set(value As String)
                 Me(Me.tableQry_OrderRpt.CouponCodeColumn) = value
+            End Set
+        End Property
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Property ShadowPrice() As Decimal
+            Get
+                Try
+                    Return CType(Me(Me.tableQry_OrderRpt.ShadowPriceColumn), Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'ShadowPrice' in table 'Qry_OrderRpt' is DBNull.", e)
+                End Try
+            End Get
+            Set(value As Decimal)
+                Me(Me.tableQry_OrderRpt.ShadowPriceColumn) = value
             End Set
         End Property
 
@@ -12669,6 +12698,18 @@ Partial Public Class Rpt_DataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
         Public Sub SetCouponCodeNull()
             Me(Me.tableQry_OrderRpt.CouponCodeColumn) = Global.System.Convert.DBNull
+        End Sub
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Function IsShadowPriceNull() As Boolean
+            Return Me.IsNull(Me.tableQry_OrderRpt.ShadowPriceColumn)
+        End Function
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Sub SetShadowPriceNull()
+            Me(Me.tableQry_OrderRpt.ShadowPriceColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     

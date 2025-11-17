@@ -12,7 +12,7 @@
   <xs:element name="Rpt_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Rpt_DataSet" msprop:Generator_UserDSName="Rpt_DataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Qry_SalRetPrintDet" msprop:Generator_TableClassName="Qry_SalRetPrintDetDataTable" msprop:Generator_TableVarName="tableQry_SalRetPrintDet" msprop:Generator_TablePropName="Qry_SalRetPrintDet" msprop:Generator_RowDeletingName="Qry_SalRetPrintDetRowDeleting" msprop:Generator_RowChangingName="Qry_SalRetPrintDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalRetPrintDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalRetPrintDetRowDeleted" msprop:Generator_UserTableName="Qry_SalRetPrintDet" msprop:Generator_RowChangedName="Qry_SalRetPrintDetRowChanged" msprop:Generator_RowEvArgName="Qry_SalRetPrintDetRowChangeEvent" msprop:Generator_RowClassName="Qry_SalRetPrintDetRow">
+        <xs:element name="Qry_SalRetPrintDet" msprop:Generator_TableClassName="Qry_SalRetPrintDetDataTable" msprop:Generator_TableVarName="tableQry_SalRetPrintDet" msprop:Generator_RowChangedName="Qry_SalRetPrintDetRowChanged" msprop:Generator_TablePropName="Qry_SalRetPrintDet" msprop:Generator_RowDeletingName="Qry_SalRetPrintDetRowDeleting" msprop:Generator_RowChangingName="Qry_SalRetPrintDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalRetPrintDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalRetPrintDetRowDeleted" msprop:Generator_RowClassName="Qry_SalRetPrintDetRow" msprop:Generator_UserTableName="Qry_SalRetPrintDet" msprop:Generator_RowEvArgName="Qry_SalRetPrintDetRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="SalId" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
@@ -79,7 +79,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_SalTaxdet" msprop:Generator_TableClassName="Qry_SalTaxdetDataTable" msprop:Generator_TableVarName="tableQry_SalTaxdet" msprop:Generator_TablePropName="Qry_SalTaxdet" msprop:Generator_RowDeletingName="Qry_SalTaxdetRowDeleting" msprop:Generator_RowChangingName="Qry_SalTaxdetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalTaxdetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalTaxdetRowDeleted" msprop:Generator_UserTableName="Qry_SalTaxdet" msprop:Generator_RowChangedName="Qry_SalTaxdetRowChanged" msprop:Generator_RowEvArgName="Qry_SalTaxdetRowChangeEvent" msprop:Generator_RowClassName="Qry_SalTaxdetRow">
+        <xs:element name="Qry_SalTaxdet" msprop:Generator_TableClassName="Qry_SalTaxdetDataTable" msprop:Generator_TableVarName="tableQry_SalTaxdet" msprop:Generator_RowChangedName="Qry_SalTaxdetRowChanged" msprop:Generator_TablePropName="Qry_SalTaxdet" msprop:Generator_RowDeletingName="Qry_SalTaxdetRowDeleting" msprop:Generator_RowChangingName="Qry_SalTaxdetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalTaxdetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalTaxdetRowDeleted" msprop:Generator_RowClassName="Qry_SalTaxdetRow" msprop:Generator_UserTableName="Qry_SalTaxdet" msprop:Generator_RowEvArgName="Qry_SalTaxdetRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TaxName" msprop:Generator_ColumnVarNameInTable="columnTaxName" msprop:Generator_ColumnPropNameInRow="TaxName" msprop:Generator_ColumnPropNameInTable="TaxNameColumn" msprop:Generator_UserColumnName="TaxName">
@@ -100,7 +100,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_RptRSales" msprop:Generator_TableClassName="Qry_RptRSalesDataTable" msprop:Generator_TableVarName="tableQry_RptRSales" msprop:Generator_TablePropName="Qry_RptRSales" msprop:Generator_RowDeletingName="Qry_RptRSalesRowDeleting" msprop:Generator_RowChangingName="Qry_RptRSalesRowChanging" msprop:Generator_RowEvHandlerName="Qry_RptRSalesRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_RptRSalesRowDeleted" msprop:Generator_UserTableName="Qry_RptRSales" msprop:Generator_RowChangedName="Qry_RptRSalesRowChanged" msprop:Generator_RowEvArgName="Qry_RptRSalesRowChangeEvent" msprop:Generator_RowClassName="Qry_RptRSalesRow">
+        <xs:element name="Qry_RptRSales" msprop:Generator_TableClassName="Qry_RptRSalesDataTable" msprop:Generator_TableVarName="tableQry_RptRSales" msprop:Generator_RowChangedName="Qry_RptRSalesRowChanged" msprop:Generator_TablePropName="Qry_RptRSales" msprop:Generator_RowDeletingName="Qry_RptRSalesRowDeleting" msprop:Generator_RowChangingName="Qry_RptRSalesRowChanging" msprop:Generator_RowEvHandlerName="Qry_RptRSalesRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_RptRSalesRowDeleted" msprop:Generator_RowClassName="Qry_RptRSalesRow" msprop:Generator_UserTableName="Qry_RptRSales" msprop:Generator_RowEvArgName="Qry_RptRSalesRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="SalId" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
@@ -132,7 +132,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="acc_Qry_Voucher" msprop:Generator_TableClassName="acc_Qry_VoucherDataTable" msprop:Generator_TableVarName="tableacc_Qry_Voucher" msprop:Generator_RowChangedName="acc_Qry_VoucherRowChanged" msprop:Generator_TablePropName="acc_Qry_Voucher" msprop:Generator_RowDeletingName="acc_Qry_VoucherRowDeleting" msprop:Generator_RowChangingName="acc_Qry_VoucherRowChanging" msprop:Generator_RowEvHandlerName="acc_Qry_VoucherRowChangeEventHandler" msprop:Generator_RowDeletedName="acc_Qry_VoucherRowDeleted" msprop:Generator_RowClassName="acc_Qry_VoucherRow" msprop:Generator_UserTableName="acc_Qry_Voucher" msprop:Generator_RowEvArgName="acc_Qry_VoucherRowChangeEvent">
+        <xs:element name="acc_Qry_Voucher" msprop:Generator_TableClassName="acc_Qry_VoucherDataTable" msprop:Generator_TableVarName="tableacc_Qry_Voucher" msprop:Generator_TablePropName="acc_Qry_Voucher" msprop:Generator_RowDeletingName="acc_Qry_VoucherRowDeleting" msprop:Generator_RowChangingName="acc_Qry_VoucherRowChanging" msprop:Generator_RowEvHandlerName="acc_Qry_VoucherRowChangeEventHandler" msprop:Generator_RowDeletedName="acc_Qry_VoucherRowDeleted" msprop:Generator_UserTableName="acc_Qry_Voucher" msprop:Generator_RowChangedName="acc_Qry_VoucherRowChanged" msprop:Generator_RowEvArgName="acc_Qry_VoucherRowChangeEvent" msprop:Generator_RowClassName="acc_Qry_VoucherRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TranId" msprop:Generator_ColumnVarNameInTable="columnTranId" msprop:Generator_ColumnPropNameInRow="TranId" msprop:Generator_ColumnPropNameInTable="TranIdColumn" msprop:Generator_UserColumnName="TranId" type="xs:string" minOccurs="0" />
@@ -156,7 +156,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_RptRSalItemwise" msprop:Generator_TableClassName="Qry_RptRSalItemwiseDataTable" msprop:Generator_TableVarName="tableQry_RptRSalItemwise" msprop:Generator_TablePropName="Qry_RptRSalItemwise" msprop:Generator_RowDeletingName="Qry_RptRSalItemwiseRowDeleting" msprop:Generator_RowChangingName="Qry_RptRSalItemwiseRowChanging" msprop:Generator_RowEvHandlerName="Qry_RptRSalItemwiseRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_RptRSalItemwiseRowDeleted" msprop:Generator_UserTableName="Qry_RptRSalItemwise" msprop:Generator_RowChangedName="Qry_RptRSalItemwiseRowChanged" msprop:Generator_RowEvArgName="Qry_RptRSalItemwiseRowChangeEvent" msprop:Generator_RowClassName="Qry_RptRSalItemwiseRow">
+        <xs:element name="Qry_RptRSalItemwise" msprop:Generator_TableClassName="Qry_RptRSalItemwiseDataTable" msprop:Generator_TableVarName="tableQry_RptRSalItemwise" msprop:Generator_RowChangedName="Qry_RptRSalItemwiseRowChanged" msprop:Generator_TablePropName="Qry_RptRSalItemwise" msprop:Generator_RowDeletingName="Qry_RptRSalItemwiseRowDeleting" msprop:Generator_RowChangingName="Qry_RptRSalItemwiseRowChanging" msprop:Generator_RowEvHandlerName="Qry_RptRSalItemwiseRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_RptRSalItemwiseRowDeleted" msprop:Generator_RowClassName="Qry_RptRSalItemwiseRow" msprop:Generator_UserTableName="Qry_RptRSalItemwise" msprop:Generator_RowEvArgName="Qry_RptRSalItemwiseRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="SalId" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
@@ -196,7 +196,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_SalHdr" msprop:Generator_TableClassName="Qry_SalHdrDataTable" msprop:Generator_TableVarName="tableQry_SalHdr" msprop:Generator_TablePropName="Qry_SalHdr" msprop:Generator_RowDeletingName="Qry_SalHdrRowDeleting" msprop:Generator_RowChangingName="Qry_SalHdrRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalHdrRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalHdrRowDeleted" msprop:Generator_UserTableName="Qry_SalHdr" msprop:Generator_RowChangedName="Qry_SalHdrRowChanged" msprop:Generator_RowEvArgName="Qry_SalHdrRowChangeEvent" msprop:Generator_RowClassName="Qry_SalHdrRow">
+        <xs:element name="Qry_SalHdr" msprop:Generator_TableClassName="Qry_SalHdrDataTable" msprop:Generator_TableVarName="tableQry_SalHdr" msprop:Generator_RowChangedName="Qry_SalHdrRowChanged" msprop:Generator_TablePropName="Qry_SalHdr" msprop:Generator_RowDeletingName="Qry_SalHdrRowDeleting" msprop:Generator_RowChangingName="Qry_SalHdrRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalHdrRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalHdrRowDeleted" msprop:Generator_RowClassName="Qry_SalHdrRow" msprop:Generator_UserTableName="Qry_SalHdr" msprop:Generator_RowEvArgName="Qry_SalHdrRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="SalId" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
@@ -275,7 +275,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_SalDet" msprop:Generator_TableClassName="Qry_SalDetDataTable" msprop:Generator_TableVarName="tableQry_SalDet" msprop:Generator_TablePropName="Qry_SalDet" msprop:Generator_RowDeletingName="Qry_SalDetRowDeleting" msprop:Generator_RowChangingName="Qry_SalDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalDetRowDeleted" msprop:Generator_UserTableName="Qry_SalDet" msprop:Generator_RowChangedName="Qry_SalDetRowChanged" msprop:Generator_RowEvArgName="Qry_SalDetRowChangeEvent" msprop:Generator_RowClassName="Qry_SalDetRow">
+        <xs:element name="Qry_SalDet" msprop:Generator_TableClassName="Qry_SalDetDataTable" msprop:Generator_TableVarName="tableQry_SalDet" msprop:Generator_RowChangedName="Qry_SalDetRowChanged" msprop:Generator_TablePropName="Qry_SalDet" msprop:Generator_RowDeletingName="Qry_SalDetRowDeleting" msprop:Generator_RowChangingName="Qry_SalDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_SalDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_SalDetRowDeleted" msprop:Generator_RowClassName="Qry_SalDetRow" msprop:Generator_UserTableName="Qry_SalDet" msprop:Generator_RowEvArgName="Qry_SalDetRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="SalId" msprop:Generator_ColumnVarNameInTable="columnSalId" msprop:Generator_ColumnPropNameInRow="SalId" msprop:Generator_ColumnPropNameInTable="SalIdColumn" msprop:Generator_UserColumnName="SalId" type="xs:int" />
@@ -359,7 +359,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_CustomerOutStandingBal" msprop:Generator_TableClassName="Qry_CustomerOutStandingBalDataTable" msprop:Generator_TableVarName="tableQry_CustomerOutStandingBal" msprop:Generator_TablePropName="Qry_CustomerOutStandingBal" msprop:Generator_RowDeletingName="Qry_CustomerOutStandingBalRowDeleting" msprop:Generator_RowChangingName="Qry_CustomerOutStandingBalRowChanging" msprop:Generator_RowEvHandlerName="Qry_CustomerOutStandingBalRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_CustomerOutStandingBalRowDeleted" msprop:Generator_UserTableName="Qry_CustomerOutStandingBal" msprop:Generator_RowChangedName="Qry_CustomerOutStandingBalRowChanged" msprop:Generator_RowEvArgName="Qry_CustomerOutStandingBalRowChangeEvent" msprop:Generator_RowClassName="Qry_CustomerOutStandingBalRow">
+        <xs:element name="Qry_CustomerOutStandingBal" msprop:Generator_TableClassName="Qry_CustomerOutStandingBalDataTable" msprop:Generator_TableVarName="tableQry_CustomerOutStandingBal" msprop:Generator_RowChangedName="Qry_CustomerOutStandingBalRowChanged" msprop:Generator_TablePropName="Qry_CustomerOutStandingBal" msprop:Generator_RowDeletingName="Qry_CustomerOutStandingBalRowDeleting" msprop:Generator_RowChangingName="Qry_CustomerOutStandingBalRowChanging" msprop:Generator_RowEvHandlerName="Qry_CustomerOutStandingBalRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_CustomerOutStandingBalRowDeleted" msprop:Generator_RowClassName="Qry_CustomerOutStandingBalRow" msprop:Generator_UserTableName="Qry_CustomerOutStandingBal" msprop:Generator_RowEvArgName="Qry_CustomerOutStandingBalRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="AccId" msdata:Caption="SalId" msprop:Generator_ColumnVarNameInTable="columnAccId" msprop:Generator_ColumnPropNameInRow="AccId" msprop:Generator_ColumnPropNameInTable="AccIdColumn" msprop:Generator_UserColumnName="AccId" type="xs:int" />
@@ -390,7 +390,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_ReceiptEntry" msprop:Generator_TableClassName="Qry_ReceiptEntryDataTable" msprop:Generator_TableVarName="tableQry_ReceiptEntry" msprop:Generator_TablePropName="Qry_ReceiptEntry" msprop:Generator_RowDeletingName="Qry_ReceiptEntryRowDeleting" msprop:Generator_RowChangingName="Qry_ReceiptEntryRowChanging" msprop:Generator_RowEvHandlerName="Qry_ReceiptEntryRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_ReceiptEntryRowDeleted" msprop:Generator_UserTableName="Qry_ReceiptEntry" msprop:Generator_RowChangedName="Qry_ReceiptEntryRowChanged" msprop:Generator_RowEvArgName="Qry_ReceiptEntryRowChangeEvent" msprop:Generator_RowClassName="Qry_ReceiptEntryRow">
+        <xs:element name="Qry_ReceiptEntry" msprop:Generator_TableClassName="Qry_ReceiptEntryDataTable" msprop:Generator_TableVarName="tableQry_ReceiptEntry" msprop:Generator_RowChangedName="Qry_ReceiptEntryRowChanged" msprop:Generator_TablePropName="Qry_ReceiptEntry" msprop:Generator_RowDeletingName="Qry_ReceiptEntryRowDeleting" msprop:Generator_RowChangingName="Qry_ReceiptEntryRowChanging" msprop:Generator_RowEvHandlerName="Qry_ReceiptEntryRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_ReceiptEntryRowDeleted" msprop:Generator_RowClassName="Qry_ReceiptEntryRow" msprop:Generator_UserTableName="Qry_ReceiptEntry" msprop:Generator_RowEvArgName="Qry_ReceiptEntryRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="DocId" msdata:Caption="SalId" msprop:Generator_ColumnVarNameInTable="columnDocId" msprop:Generator_ColumnPropNameInRow="DocId" msprop:Generator_ColumnPropNameInTable="DocIdColumn" msprop:Generator_UserColumnName="DocId" type="xs:int" />
@@ -440,7 +440,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_TableHdr" msprop:Generator_TableClassName="Qry_TableHdrDataTable" msprop:Generator_TableVarName="tableQry_TableHdr" msprop:Generator_TablePropName="Qry_TableHdr" msprop:Generator_RowDeletingName="Qry_TableHdrRowDeleting" msprop:Generator_RowChangingName="Qry_TableHdrRowChanging" msprop:Generator_RowEvHandlerName="Qry_TableHdrRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_TableHdrRowDeleted" msprop:Generator_UserTableName="Qry_TableHdr" msprop:Generator_RowChangedName="Qry_TableHdrRowChanged" msprop:Generator_RowEvArgName="Qry_TableHdrRowChangeEvent" msprop:Generator_RowClassName="Qry_TableHdrRow">
+        <xs:element name="Qry_TableHdr" msprop:Generator_TableClassName="Qry_TableHdrDataTable" msprop:Generator_TableVarName="tableQry_TableHdr" msprop:Generator_RowChangedName="Qry_TableHdrRowChanged" msprop:Generator_TablePropName="Qry_TableHdr" msprop:Generator_RowDeletingName="Qry_TableHdrRowDeleting" msprop:Generator_RowChangingName="Qry_TableHdrRowChanging" msprop:Generator_RowEvHandlerName="Qry_TableHdrRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_TableHdrRowDeleted" msprop:Generator_RowClassName="Qry_TableHdrRow" msprop:Generator_UserTableName="Qry_TableHdr" msprop:Generator_RowEvArgName="Qry_TableHdrRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TableId" msdata:Caption="SalId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" msprop:Generator_UserColumnName="TableId" type="xs:int" />
@@ -455,7 +455,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_TableDet" msprop:Generator_TableClassName="Qry_TableDetDataTable" msprop:Generator_TableVarName="tableQry_TableDet" msprop:Generator_TablePropName="Qry_TableDet" msprop:Generator_RowDeletingName="Qry_TableDetRowDeleting" msprop:Generator_RowChangingName="Qry_TableDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_TableDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_TableDetRowDeleted" msprop:Generator_UserTableName="Qry_TableDet" msprop:Generator_RowChangedName="Qry_TableDetRowChanged" msprop:Generator_RowEvArgName="Qry_TableDetRowChangeEvent" msprop:Generator_RowClassName="Qry_TableDetRow">
+        <xs:element name="Qry_TableDet" msprop:Generator_TableClassName="Qry_TableDetDataTable" msprop:Generator_TableVarName="tableQry_TableDet" msprop:Generator_RowChangedName="Qry_TableDetRowChanged" msprop:Generator_TablePropName="Qry_TableDet" msprop:Generator_RowDeletingName="Qry_TableDetRowDeleting" msprop:Generator_RowChangingName="Qry_TableDetRowChanging" msprop:Generator_RowEvHandlerName="Qry_TableDetRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_TableDetRowDeleted" msprop:Generator_RowClassName="Qry_TableDetRow" msprop:Generator_UserTableName="Qry_TableDet" msprop:Generator_RowEvArgName="Qry_TableDetRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TableId" msdata:Caption="SalId" msprop:Generator_ColumnVarNameInTable="columnTableId" msprop:Generator_ColumnPropNameInRow="TableId" msprop:Generator_ColumnPropNameInTable="TableIdColumn" msprop:Generator_UserColumnName="TableId" type="xs:int" />
@@ -471,7 +471,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Qry_OrderRpt" msprop:Generator_TableClassName="Qry_OrderRptDataTable" msprop:Generator_TableVarName="tableQry_OrderRpt" msprop:Generator_RowChangedName="Qry_OrderRptRowChanged" msprop:Generator_TablePropName="Qry_OrderRpt" msprop:Generator_RowDeletingName="Qry_OrderRptRowDeleting" msprop:Generator_RowChangingName="Qry_OrderRptRowChanging" msprop:Generator_RowEvHandlerName="Qry_OrderRptRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_OrderRptRowDeleted" msprop:Generator_RowClassName="Qry_OrderRptRow" msprop:Generator_UserTableName="Qry_OrderRpt" msprop:Generator_RowEvArgName="Qry_OrderRptRowChangeEvent">
+        <xs:element name="Qry_OrderRpt" msprop:Generator_TableClassName="Qry_OrderRptDataTable" msprop:Generator_TableVarName="tableQry_OrderRpt" msprop:Generator_TablePropName="Qry_OrderRpt" msprop:Generator_RowDeletingName="Qry_OrderRptRowDeleting" msprop:Generator_RowChangingName="Qry_OrderRptRowChanging" msprop:Generator_RowEvHandlerName="Qry_OrderRptRowChangeEventHandler" msprop:Generator_RowDeletedName="Qry_OrderRptRowDeleted" msprop:Generator_UserTableName="Qry_OrderRpt" msprop:Generator_RowChangedName="Qry_OrderRptRowChanged" msprop:Generator_RowEvArgName="Qry_OrderRptRowChangeEvent" msprop:Generator_RowClassName="Qry_OrderRptRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -510,8 +510,9 @@
               <xs:element name="OrdNo" msprop:Generator_ColumnVarNameInTable="columnOrdNo" msprop:Generator_ColumnPropNameInRow="OrdNo" msprop:Generator_ColumnPropNameInTable="OrdNoColumn" msprop:Generator_UserColumnName="OrdNo" type="xs:int" minOccurs="0" />
               <xs:element name="SlNo" msprop:Generator_ColumnVarNameInTable="columnSlNo" msprop:Generator_ColumnPropNameInRow="SlNo" msprop:Generator_ColumnPropNameInTable="SlNoColumn" msprop:Generator_UserColumnName="SlNo" type="xs:string" minOccurs="0" />
               <xs:element name="GroupName" msprop:Generator_ColumnVarNameInTable="columnGroupName" msprop:Generator_ColumnPropNameInRow="GroupName" msprop:Generator_ColumnPropNameInTable="GroupNameColumn" msprop:Generator_UserColumnName="GroupName" type="xs:string" minOccurs="0" />
-              <xs:element name="RewardPointUsed" msprop:Generator_ColumnVarNameInTable="columnRewardPointUsed" msprop:Generator_ColumnPropNameInRow="RewardPointUsed" msprop:Generator_ColumnPropNameInTable="RewardPointUsedColumn" msprop:Generator_UserColumnName="RewardPointUsed" type="xs:string" minOccurs="0" />
+              <xs:element name="RewardPointUsed" msprop:Generator_ColumnVarNameInTable="columnRewardPointUsed" msprop:Generator_ColumnPropNameInRow="RewardPointUsed" msprop:Generator_ColumnPropNameInTable="RewardPointUsedColumn" msprop:Generator_UserColumnName="RewardPointUsed" type="xs:int" minOccurs="0" />
               <xs:element name="CouponCode" msprop:Generator_ColumnVarNameInTable="columnCouponCode" msprop:Generator_ColumnPropNameInRow="CouponCode" msprop:Generator_ColumnPropNameInTable="CouponCodeColumn" msprop:Generator_UserColumnName="CouponCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ShadowPrice" msprop:Generator_ColumnVarNameInTable="columnShadowPrice" msprop:Generator_ColumnPropNameInRow="ShadowPrice" msprop:Generator_ColumnPropNameInTable="ShadowPriceColumn" msprop:Generator_UserColumnName="ShadowPrice" type="xs:decimal" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
